@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: preparing
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: run super-linter
         uses: github/super-linter@v3
