@@ -1,0 +1,13 @@
+name: Learning
+
+on: 
+  push:
+	branches:
+	  - dev
+
+jobs:
+  hey:
+	runs-on: ubuntu-latest
+	steps:
+	  - run: echo "hey"
+       

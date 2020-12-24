@@ -1,0 +1,13 @@
+name: second workflow
+
+on:
+  push:
+	branches:
+	  - main
+
+jobs:
+  hello:
+	runs-on: ubuntu-latest
+	steps:
+	  - run: echo "hello world"
+ 
