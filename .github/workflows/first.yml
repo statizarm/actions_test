@@ -2,12 +2,12 @@ name: Learning
 
 on: 
   push:
-	branches:
-	  - dev
+    branches:
+      - dev
 
 jobs:
   hey:
-	runs-on: ubuntu-latest
-	steps:
-	  - run: echo "hey"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hey"
        
